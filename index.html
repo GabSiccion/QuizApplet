@@ -9,21 +9,17 @@
 </head>
 <body>
     <div class="container">
-        <div>
-            <h1>Quiz Applet</h1>
-            <div class="question-box">
-                <p class="questions" id="questions">Sample question goes here. Filler text to test the look and feel of the text questions.</p>
-            </div>
-            <div class="answers-box">
-                <button class="answer-button" id="answer1" value="1" onclick="CheckAnswer(this.value)">Text1</button>
-                <button class="answer-button" id="answer2" value="2" onclick="CheckAnswer(this.value)">Text2</button>
-                <button class="answer-button" id="answer3" value="3" onclick="CheckAnswer(this.value)">Text3</button>
-                <button class="answer-button" id="answer4" value="4" onclick="CheckAnswer(this.value)">Text4</button>
-            </div>
-            <p id="output">text</p>
+        <div class="header">
+            <h2 class="question">VERY LONG QUESTION SENTENCE VERY LONG QUESTION SENTENCE VERY LONG QUESTION SENTENCE VERY LONG QUESTION SENTENCE</h2>
+            <ul>
+                <li><input type="radio" id="a" name="answer"><label for="a" id="a_text">answer</label></li>
+                <li><input type="radio" id="b" name="answer"><label for="b" id="b_text">answer</label></li>
+                <li><input type="radio" id="c" name="answer"><label for="c" id="c_text">answer</label></li>
+                <li><input type="radio" id="d" name="answer"><label for="d" id="d_text">answer</label></li>
+            </ul>
         </div>
-    </div>
-
+        <button class="submit-button">Next Question</button>
+    </div> 
     <script src="script.js"></script>
 </body>
 </html>
