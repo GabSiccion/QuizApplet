@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Quiz Applet</h1>
+            <div class="question-box">
+                <p class="questions" id="questions">Sample question goes here. Filler text to test the look and feel of the text questions.</p>
+            </div>
+            <div class="answers-box">
+                <button class="answer-button" id="answer1" value="1" onclick="CheckAnswer(this.value)">Text1</button>
+                <button class="answer-button" id="answer2" value="2" onclick="CheckAnswer(this.value)">Text2</button>
+                <button class="answer-button" id="answer3" value="3" onclick="CheckAnswer(this.value)">Text3</button>
+                <button class="answer-button" id="answer4" value="4" onclick="CheckAnswer(this.value)">Text4</button>
+            </div>
+            <p id="output">text</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
